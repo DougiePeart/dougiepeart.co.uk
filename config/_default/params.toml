@@ -64,10 +64,10 @@ myname = "Dougie Peart"
 email = "contact@dougiepeart.co.uk"
 whoami = "Infrastructure Engineer"
 bioImageUrl = ""
-useGravatar = false
+useGravatar = true
 location = "Glasgow, Scotland"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+organization = ""
+link = ""
 
 # sidebar
 enableBio = true
@@ -162,17 +162,17 @@ commento = false
 
 [socialOptions]
   email = "mailto:contact@dougiepeart.co.uk"
-  phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+#  phone = ""
+#  facebook = "http://example.org/"
+#  twitter = "http://example.org/"
+  github = ""
   stack-overflow = ""
   instagram = ""
   google-plus = ""
   youtube = ""
   medium = ""
   tumblr = ""
-  linkedin = ""
+  linkedin = "https://www.linkedin.com/in/dougie-peart/"
   pinterest = ""
   stack-exchange = ""
   telegram = ""
@@ -189,7 +189,7 @@ commento = false
   matrix = ""
   xmpp = ""
   dev-to = ""
-  gitea = ""
+  gitea = "https://home.dougiepeart.co.uk/git/explore/repos"
   google-scholar = ""
 
 [donationOptions]
