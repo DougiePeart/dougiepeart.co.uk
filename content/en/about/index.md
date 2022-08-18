@@ -1,7 +1,0 @@
----
-title: "About"
-date: 2022-08-18T17:13:08+01:00
-description: 
-type: about
----
-hello :) 
