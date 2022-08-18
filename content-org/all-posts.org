@@ -1,0 +1,22 @@
+#+Title: Hugo posts
+#+hugo_base_dir: ../
+
+* DONE My first post                                             :tag1:@category1:
+CLOSED: [2022-08-18 Thu 18:07]
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2022-08-18 Thu 18:07]
+:END:
+This is my post body
+
+* DONE Second post :tag1:@category1:
+CLOSED: [2022-08-18 Thu 18:43]
+:PROPERTIES:
+:EXPORT_FILE_NAME: :Second post
+:END:
+:LOGBOOK:
+- State "DONE"       from              [2022-08-18 Thu 18:43]
+:END:
+This is my post body
