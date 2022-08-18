@@ -8,3 +8,7 @@ hugo.exe
 hugo.darwin
 hugo.linux
 
+# Org-mode file
+.\#*
+*~
+
