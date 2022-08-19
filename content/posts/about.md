@@ -1,7 +1,5 @@
 +++
 title = "About"
-date = 2022-08-18T18:20:00+01:00
-tags = ["About"]
 draft = false
 +++
 

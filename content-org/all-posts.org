@@ -1,22 +1,17 @@
 #+Title: Hugo posts
 #+hugo_base_dir: ../
 
-* DONE My first post                                             :tag1:@category1:
-CLOSED: [2022-08-18 Thu 18:07]
+* S3 Bucket Static Site :aws:linux:hugo:s3:website:@tutorial:
 :PROPERTIES:
-:EXPORT_FILE_NAME: my-first-post
-:END:
-:LOGBOOK:
-- State "DONE"       from              [2022-08-18 Thu 18:07]
+:EXPORT_FILE_NAME: Tutorial: How to Build a Cheap S3 Based Static Website
 :END:
 This is my post body
 
-* DONE Second post :tag1:@category1:
-CLOSED: [2022-08-18 Thu 18:43]
-:PROPERTIES:
-:EXPORT_FILE_NAME: Second post
-:END:
-:LOGBOOK:
-- State "DONE"       from              [2022-08-18 Thu 18:43]
-:END:
-This is my post body
+** Introduction
+I've been learning AWS recently while working towards getting the [https://aws.amazon.com/certification/certified-solutions-architect-associate/][AWS Certified Solutions Architect - Associate] certification. Setting up a good personal website has been on my todo list for a while so this seemed like a perfect opportunity to get some practical experience on the platform.
+
+I looked at the pricing as I had first considered running an EC2 instance, but I then saw that Lightsail instances were a lot cheaper. They're essentially just like a VPS on any other cloud platform. I spun up an instance and selected the Wordpress template maintained by Bitnami.
+
+I had a website up and running really quickly, but on reflection Wordpress seemed a little bloated. I use Emacs as my editor of choice so using [https://gohugo.io/][Hugo] seemed like the natural choice. With the [https://ox-hugo.scripter.co/][ox-hugo] it seemed a perfect fit.
+
+I tried following a tutorial that involved pushing the code to CodeCommit, CodePipeline would pickup the change then kick off a build with CodeBuild to run Hugo and sync the public folder to an S3 bucket. It was a cool [https://conormclaughlin.net/2017/11/automating-deployment-of-your-hugo-site-to-s3-using-aws-codepipeline/][tutorial] and quite a novel solution but it failed a few times for me when running Hugo in the build job. I was looking through the Hugo documentation to see where I was going wrong when I noticed the "hugo deploy" command. This commands just uploads the public directory to an S3 bucket for you!
