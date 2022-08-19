@@ -5,9 +5,9 @@ tags = ["About"]
 draft = false
 +++
 
-## Welcome to my website {#welcome-to-my-website}
+I'm Dougie Peart.
 
-A tinkerer with technology. The more I find out, the more I find out how much I have to find out
+I love playing around with different technologies. Especially free and open-source software because we should all work together to try and improve whether that be through the use of technology or by open discourse about any topic.
 
 ```nil
 “The more you know, the more you know you don't know.”
