@@ -1,9 +1,9 @@
-baseURL = "http://dougiepeart.co.uk"
+baseURL = "https://dougiepeart.co.uk/"
 title = "My Site"
 theme = "zzo"
 
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+#defaultContentLanguage = "en"
+#defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 
 summaryLength = 70
