@@ -1,10 +1,10 @@
 #+Title: Hugo posts
 #+hugo_base_dir: ../
 
-* DONE How to Build a Cheap S3-Based Static Website :AWS:linux:hugo:S3:website:@tutorial:
+* DONE How to build a cheap static site with AWS S3 and Hugo :AWS:linux:hugo:S3:website:@tutorial:
 CLOSED: [2022-08-19 Fri 19:56]
 :PROPERTIES:
-:EXPORT_FILE_NAME: Tutorial: How to Build a Cheap S3-Based Static Website
+:EXPORT_FILE_NAME: Tutorial: How to build a cheap static site with AWS S3 and Hugo
 :END:
 :LOGBOOK:
 - State "DONE"       from              [2022-08-19 Fri 19:56]

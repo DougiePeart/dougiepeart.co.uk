@@ -1,5 +1,6 @@
 +++
 title = "Book Notes: The Beginner's guide to Stoicism"
+author = ["Dougie Peart"]
 date = 2022-08-21T20:51:00+01:00
 tags = ["book", "notes", "stoicism", "philosophy", "reading"]
 categories = ["reading"]
